@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/check',function(){
-    dd(\App\Models\User::get());
-});
+//Route::get('/check',function(){
+//    dd(\App\Models\User::get());
+//});
+
